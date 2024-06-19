@@ -16,9 +16,7 @@ class Constants {
     backgroundColor: lightBG,
     primaryColor: lightPrimary,
     // ignore: deprecated_member_use
-    accentColor: lightAccent,
-    // ignore: deprecated_member_use
-    buttonColor: lightAccent,
+    cardColor: lightAccent,
     scaffoldBackgroundColor: lightBG,
     appBarTheme: AppBarTheme(
       toolbarTextStyle: TextTheme(
@@ -42,10 +40,7 @@ class Constants {
     backgroundColor: darkBG,
     primaryColor: darkPrimary,
     // ignore: deprecated_member_use
-    accentColor: darkAccent,
     scaffoldBackgroundColor: darkBG,
-    // ignore: deprecated_member_use
-    buttonColor: darkAccent,
     appBarTheme: AppBarTheme(
       toolbarTextStyle: TextTheme(
         headline6: TextStyle(

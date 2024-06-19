@@ -99,7 +99,7 @@ class _MainScreenState extends State<MainScreen> {
         ),
         color: _page == index
             // ignore: deprecated_member_use
-            ? Theme.of(context).accentColor
+            ? Theme.of(context).cardColor
             : Theme.of(context).textTheme.caption?.color,
         onPressed: () => _pageController.jumpToPage(index),
       );
